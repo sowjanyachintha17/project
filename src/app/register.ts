@@ -1,3 +1,5 @@
+//used in event registration
+
 import { User } from './user';
 import { Event } from './event';
 

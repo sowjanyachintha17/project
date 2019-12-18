@@ -1,3 +1,5 @@
+// used in evento registration
+
 import { Venue } from './Venue';
 export class User{
    
