@@ -18,6 +18,7 @@ export class EvntregistrationComponent implements OnInit {
 
   ngOnInit() {
   }
+  
   save() {
     this.userService.postEvent(this.event)
       .subscribe(data => console.log(data), error => console.log(error));
