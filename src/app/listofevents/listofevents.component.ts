@@ -12,7 +12,7 @@ export class ListofeventsComponent implements OnInit {
   constructor(private userService:UserService) { }
 
   ngOnInit() {
-    return this.userService.getEvent() 
+    return this.userService.getEvent()     //we are taking urls from user service in which event fields present.
     .subscribe(event => this.event = event);
 
   }
