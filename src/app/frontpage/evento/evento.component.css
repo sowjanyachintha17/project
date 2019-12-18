@@ -114,7 +114,7 @@ body::ng-deep {
   }
   
   /*--------------------------------------------------------------
-  # Top Bar
+  # Top Bar & Social link
   --------------------------------------------------------------*/
   
   #topbar {
@@ -201,7 +201,7 @@ body::ng-deep {
   }
   
   /*--------------------------------------------------------------
-  # Intro Section
+  # Intro Section & logo
   --------------------------------------------------------------*/
   
   #intro {
@@ -243,7 +243,9 @@ body::ng-deep {
   #intro .intro-info .btn-services:hover {
     background: #0a98c0;
   }
-  
+
+  /* ======== Card ======= */
+
   .card {
     box-shadow: 0 0 0 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -297,9 +299,9 @@ body::ng-deep {
     background-color: #e2e6df;
   }
   
-  /*--------------------------------------------------------------
+  /*---------==========================================---------
   # Navigation Menu
-  --------------------------------------------------------------*/
+  -----------============================================-------*/
   
   /* Desktop Navigation */
  
@@ -402,7 +404,7 @@ body::ng-deep {
     right: 15px;
   }*/
   
-  /* Mobile Navigation */
+  /* ================Mobile Navigation=================== */
   
   .mobile-nav {
     position: fixed;
@@ -532,8 +534,8 @@ body::ng-deep {
     width: 50%;
   }
   
-  /* Section with background
-  --------------------------------*/
+  /* Section with background================
+  --===============================------------------*/
   
   .section-bg {
     background: #f5f8fd;
@@ -621,8 +623,8 @@ body::ng-deep {
     transition: .5s;
   }
   
-  /* Services Section
-  --------------------------------*/
+  /* Services Section =============
+  ---=====================-----------*/
   
   #services {
     padding: 60px 0 40px 0;
@@ -734,7 +736,7 @@ body::ng-deep {
     color: #8a87b6;
   }
 
-  /* Certificate-----*/
+  /* ===================== Certificate ====================*/
 
   #certificate {
     box-sizing: border-box;
@@ -788,8 +790,8 @@ body::ng-deep {
   }
   
   
-  /* Call To Action Section
-  --------------------------------*/
+  /* Call To Action Section=========
+  --==============================----*/
   
   #call-to-action {
     background: #2d2b46;
@@ -838,8 +840,8 @@ body::ng-deep {
     font-size: 24px;
   }
   
-  /* Portfolio Section
-  --------------------------------*/
+  /* Portfolio Section=============
+  ================================-*/
   
   #portfolio {
     padding: 60px 0;
@@ -1044,8 +1046,8 @@ body::ng-deep {
     background: oldlace;
   }
   
-  /* Testimonials Section
-  --------------------------------*/
+  /* Testimonials Section ==========
+  --================================*/
   
   #testimonials {
     padding: 60px 0;
@@ -1101,8 +1103,8 @@ body::ng-deep {
     background-color: #1bb1dc;
   }
   
-  /* Team Section
-  --------------------------------*/
+  /* Team Section =================
+ ===================================-*/
   
   #team {
     padding: 60px 0;
@@ -1183,8 +1185,8 @@ body::ng-deep {
     margin: 0 2px;
   }
   
-  /* Clients Section
-  --------------------------------*/
+  /* Clients Section =================
+  ---==================================*/
   
   #clients {
     padding: 60px 0;
@@ -1220,8 +1222,8 @@ body::ng-deep {
     background-color: #1bb1dc;
   }
   
-  /* Pricing Section
-  --------------------------------*/
+  /* Products =====================
+  --===============================*/
   
   #pricing {
     padding: 80px 0;
@@ -1374,9 +1376,9 @@ body::ng-deep {
     content: "\f2c7" !important;
   }
   
-  /*--------------------------------------------------------------
+  /*----------------===========================================-
   # Footer
-  --------------------------------------------------------------*/
+  -----------============================================----*/
   
   #footer {
     padding: 0 0 30px 0;
