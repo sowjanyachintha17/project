@@ -1,3 +1,5 @@
+
+/*  =============== registration page ==========*/
 body{
     margin:0;
     color:#3e4df0;
@@ -8,10 +10,7 @@ body{
     padding: 0%;
     font:600 16px/18px 'Open Sans',sans-serif;
   }
-  /* *,:after,:before{box-sizing:border-box} */
-  /* .clearfix:after,.clearfix:before{content:'';display:table} */
-  /* .clearfix:after{clear:both;display:block} */
-  /* a{color:inherit;text-decoration:none} */
+  
    
   .login-wrap{
     width:100%;
