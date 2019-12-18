@@ -14,17 +14,17 @@ export class EventoComponent implements OnInit {
   sectionScroll: any;
 
   constructor( private _router:Router,private userService:UserService ) { }
-
+c
   login(){
-    this._router.navigate(['/login']);
+    this._router.navigate(['/login']); //connection to login component.
   }
   register(){
-    this._router.navigate(['/register']);
+    this._router.navigate(['/register']);//connection to register component.
   }
  
   event: Event[];
   ngOnInit() {
-    return this.userService.getEvent() 
+    return this.userService.getEvent() //user services has url and we are using that links here.
     .subscribe(event => this.event = event);
    
   }
