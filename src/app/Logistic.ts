@@ -1,3 +1,4 @@
+//used in feedback to get and post the data
 export class Logistic{
     accommodation:string;
     welcome_kit:string;
