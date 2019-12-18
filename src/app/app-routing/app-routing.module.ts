@@ -21,6 +21,8 @@ const routes: Routes = [
     component: AppComponent,
     pathMatch: 'full'
   },
+  
+  /** === Navigation ==== **/
   { path: 'sidebar', component: SidebarComponent },
   { path: 'navbar',  component: NavbarComponent },
   { path: 'dashboard', component: DashboardComponent },
