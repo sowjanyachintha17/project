@@ -1,3 +1,5 @@
+// used for event creation
+
 import { Venue} from './Venue';
 import { User } from './user';
 
