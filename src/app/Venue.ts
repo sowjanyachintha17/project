@@ -1,3 +1,5 @@
+// used in event registration 
+
 export class Venue {
     door_no: string;
     building_name: string;
