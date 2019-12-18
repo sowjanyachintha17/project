@@ -19,7 +19,7 @@ export class RegisterComponent implements OnInit {
   ngOnInit() {
    
   }
-
+/**  post the data **/
   save() {
     this.userService.postUser(this.user)
       .subscribe(data => console.log(data), error => console.log(error));
