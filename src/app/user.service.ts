@@ -6,6 +6,8 @@ import { User } from './user';
 import { Register } from './register';
 import { Feedback } from './feedback';
 
+
+//integrating with backend using following methods
 @Injectable({
   providedIn: 'root'
 })
